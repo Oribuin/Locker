@@ -1,3 +1,3 @@
-chest locking plugin ;3
+# Chest Locker
 
-Made in 2 hours and 6 minutes.
+Made in 2 hours and 6 minutes, locks chests ;3
