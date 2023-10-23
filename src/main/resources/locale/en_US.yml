@@ -1,0 +1,34 @@
+# Plugin Message Prefix
+prefix: '<g:#00B4DB:#0083B0>&lLocker &8| &f'
+
+# Generic Command Messages
+no-permission: '&cYou don''t have permission for that!'
+only-player: '&cThis command can only be executed by a player.'
+not-container: 'You must be looking at a container to do this.'
+sneak-to-destroy: 'You must be sneaking to destroy a locked container.'
+
+# Lock Command
+command-lock-success: 'You have locked this container'
+command-lock-already-locked: 'This container is already locked'
+
+# Unlock Command
+command-unlock-success: 'You have unlocked this container'
+command-unlock-not-locked: 'This container is not locked'
+command-unlock-not-owner: 'You need to be the owner of this container to unlock it'
+
+# Trust Command
+command-trust-success: 'You have trusted %target% to this container'
+command-trust-usage: 'Usage: /locker trust <player>'
+command-trust-not-owner: 'You need to be the owner of this container to trust someone'
+command-trust-not-player: 'You need to specify a player to trust'
+command-trust-already-trusted: 'This player is already trusted to this container'
+
+# Untrust Command
+command-untrust-success: 'You have untrusted %target% from this container'
+command-untrust-usage: 'Usage: /locker untrust <player>'
+command-untrust-not-owner: 'You need to be the owner of this container to untrust someone'
+command-untrust-not-player: 'You need to specify a player to untrust'
+command-untrust-not-trusted: 'This player is not trusted to this container'
+
+# Reload Command
+command-reload-reloaded: 'Configuration and locale files were reloaded.'

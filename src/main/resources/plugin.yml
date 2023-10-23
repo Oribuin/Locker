@@ -1,0 +1,49 @@
+name: Locker
+main: xyz.oribuin.locker.LockerPlugin
+version: '@version@'
+api-version: '1.16'
+author: Oribuin
+description: Lock any container with ease!
+commands:
+  lock:
+    description: Lock a container
+    usage: /lock
+
+  unlock:
+    description: Unlock a container
+    usage: /unlock
+
+  trust:
+    description: Trust a player to your container
+    usage: /trust <player>
+
+  untrust:
+    description: Untrust a player from your container
+    usage: /untrust <player>
+
+  reloadlocker:
+    description: Reload the plugin
+    usage: /reloadlocker
+
+permissions:
+  locker.*:
+    description: Gives access to all Locker commands
+    children:
+      locker.lock:
+        description: Gives access to the /lock command
+        default: false
+      locker.unlock:
+        description: Gives access to the /unlock command
+        default: false
+      locker.trust:
+        description: Gives access to the /trust command
+        default: false
+      locker.untrust:
+        description: Gives access to the /untrust command
+        default: false
+      locker.reload:
+        description: Gives access to the /locker reload command
+        default: false
+      locker.bypass:
+        description: Gives access to bypassing locked containers
+        default: false
