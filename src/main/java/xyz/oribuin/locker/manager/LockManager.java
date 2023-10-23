@@ -151,9 +151,7 @@ public class LockManager extends Manager {
                 DataType.asList(DataType.UUID),
                 new ArrayList<>()
         );
-
-        System.out.println("trusted: " + trusted);
-
+        
         return trusted.contains(player.getUniqueId());
     }
 
